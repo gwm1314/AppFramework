@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- 建议使用sp_作为前缀-->
+<resources>
+    <string name="SP_NAME">config</string>
+    <string name="sp_guspass">guspass</string>
+</resources>

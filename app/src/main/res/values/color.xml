@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="auto_af_red">#FF3C3C</color>
+    <color name="auto_af_grey">#999999</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#B0000000</color>
+    <color name="possible_result_points">#C0FFFF00</color>
+
+    <!--Snow	255 250 250	#FFFAFA -->
+    <color name="fffafa">#FFFAFA</color>
+    <!--PaleTurquoise1	187 255 255	#BBFFFF-->
+    <color name="bbffff">#BBFFFF</color>
+   <!--GhostWhite	248 248 255	#F8F8FF-->
+    <color name="f8f8ff">#F8F8FF</color>
+    <!--PaleTurquoise2	174 238 238	#AEEEEE-->
+    <color name="pale_turquoise2">#AEEEEE</color>
+    <!--WhiteSmoke	245 245 245	#F5F5F5-->
+    <color name="aeeeee">#AEEEEE</color>
+    <!--PaleTurquoise3	150 205 205	#96CDCD-->
+    <color name="_96cdcd">#96CDCD</color>
+    <!--Gainsboro	220 220 220	#DCDCDC-->
+    <color name="dcdcdc">#DCDCDC</color>
+    <!--PaleTurquoise4	102 139 139	#668B8B-->
+    <color name="_668b8b">#668B8B</color>
+    <!--FloralWhite	255 250 240	#FFFAF0-->
+    <color name="FloralWhite">#FFFAF0</color>
+    <!--CadetBlue1	152 245 255	#98F5FF-->
+    <color name="fffaf0">#98F5FF</color>
+    <!--OldLace	253 245 230	#FDF5E6-->
+    <color name="fdf5e6">#FDF5E6</color>
+    <!--CadetBlue2	142 229 238	#8EE5EE-->
+    <color name="_8ee5ee">#8EE5EE</color>
+    <!--Linen	250 240 230	#FAF0E6-->
+    <color name="faf0e6">#FAF0E6</color>
+    <!--CadetBlue3	122 197 205	#7AC5CD-->
+    <color name="_7ac5cd">#7AC5CD</color>
+    <!--AntiqueWhite	250 235 215	#FAEBD7-->
+    <color name="faebd7">#FAEBD7</color>
+    <!--CadetBlue4	83 134 139	#53868B-->
+    <color name="_53868b">#53868B</color>
+    <!--PapayaWhip	255 239 213	#FFEFD5-->
+    <color name="ffefd5">#FFEFD5</color>
+    <!--Turquoise1	0 245 255	#00F5FF-->
+    <color name="_00f5ff">#00F5FF</color>
+    <!--BlanchedAlmond	255 235 205	#FFEBCD-->
+    <color name="ffebcd">#FFEBCD</color>
+    <!--Turquoise2	0 229 238	#00E5EE-->
+    <color name="_00e5ee">#00E5EE</color>
+    <!--Bisque	255 228 196	#FFE4C4-->
+    <color name="ffe4c4">#FFE4C4</color>
+    <!--Turquoise3	0 197 205	#00C5CD-->
+    <color name="_00c5cd">#00C5CD</color>
+    <!--PeachPuff	255 218 185	#FFDAB9-->
+    <color name="ffdab9">#FFDAB9</color>
+    <!--Turquoise4	0 134 139	#00868B-->
+    <color name="_00868b">#00868B</color>
+    <!--NavajoWhite	255 222 173	#FFDEAD-->
+    <color name="ffdead">#FFDEAD</color>
+    <!--Cyan1	0 255 255	#00FFFF-->
+    <color name="_00ffff">#00FFFF</color>
+    <!--Moccasin	255 228 181	#FFE4B5-->
+    <color name="ffe4b5">#FFE4B5</color>
+    <!--Cyan2	0 238 238	#00EEEE-->
+    <color name="_00eeee">#00EEEE</color>
+    <!--Cornsilk	255 248 220	#FFF8DC-->
+    <color name="fff8dc">#FFF8DC</color>
+    <!--Cyan3	0 205 205	#00CDCD-->
+    <color name="_00cdcd">#00CDCD</color>
+    <!--Ivory	255 255 240	#FFFFF0-->
+    <color name="fffff0">#FFFFF0</color>
+    <!--Cyan4	0 139 139	#008B8B-->
+    <color name="_008b8b">#008B8B</color>
+    <!--LemonChiffon	255 250 205	#FFFACD-->
+    <color name="fffacd">#FFFACD</color>
+    <!--DarkSlateGray1	151 255 255	#97FFFF-->
+    <color name="_97ffff">#97FFFF</color>
+    <!--Seashell	255 245 238	#FFF5EE-->
+    <color name="fff5ee">#FFF5EE</color>
+    <!--DarkSlateGray2	141 238 238	#8DEEEE-->
+    <color name="_8deeee">#8DEEEE</color>
+    <!--Honeydew	240 255 240	#F0FFF0-->
+    <color name="f0fff0">#F0FFF0</color>
+    <!--DarkSlateGray3	121 205 205	#79CDCD-->
+    <color name="_79cdcd">#79CDCD</color>
+    <!--MintCream	245 255 250	#F5FFFA-->
+    <color name="f5fffa">#F5FFFA</color>
+    <!--DarkSlateGray4	82 139 139	#528B8B-->
+    <color name="_528b8b">#528B8B</color>
+    <!--Azure	240 255 255	#F0FFFF-->
+    <color name="f0ffff">#F0FFFF</color>
+    <!--Aquamarine1	127 255 212	#7FFFD4-->
+    <color name="_7fffd4">#7FFFD4</color>
+    <!--AliceBlue	240 248 255	#F0F8FF-->
+    <color name="f0f8ff">#F0F8FF</color>
+    <!--Aquamarine2	118 238 198	#76EEC6-->
+    <color name="_76eec6">#76EEC6</color>
+    <!--lavender	230 230 250	#E6E6FA-->
+    <color name="e6e6fa">#E6E6FA</color>
+    <!--Aquamarine3	102 205 170	#66CDAA-->
+    <color name="_66cdaa">#66CDAA</color>
+    <!--LavenderBlush	255 240 245	#FFF0F5-->
+    <color name="fff0f5">#FFF0F5</color>
+    <!--Aquamarine4	69 139 116	#458B74-->
+    <color name="_458b74">#458B74</color>
+    <!--MistyRose	255 228 225	#FFE4E1-->
+    <color name="ffe4e1">#FFE4E1</color>
+    <!--DarkSeaGreen1	193 255 193	#C1FFC1-->
+    <color name="c1ffc1">#C1FFC1</color>
+    <!--White	255 255 255	#FFFFFF-->
+    <color name="ffffff">#FFFFFF</color>
+    <!--DarkSeaGreen2	180 238 180	#B4EEB4-->
+    <color name="b4eeb4">#B4EEB4</color>
+    <!--Black	0 0 0	#000000-->
+    <color name="_000000">#000000</color>
+    <!--DarkSeaGreen3	155 205 155	#9BCD9B-->
+    <color name="_9bcd9b">#9BCD9B</color>
+    <!--DarkSlateGray	47 79 79	#2F4F4F-->
+    <color name="_2f4f4f">#2F4F4F</color>
+    <!--DarkSeaGreen4	105 139 105	#698B69-->
+    <color name="_698b69">#698B69</color>
+    <!--DimGrey	105 105 105	#696969-->
+    <color name="_696969">#696969</color>
+    <!--SeaGreen1	84 255 159	#54FF9F-->
+    <color name="_54ff9f">#54FF9F</color>
+    <!--SlateGrey	112 128 144	#708090-->
+    <color name="_708090">#708090</color>
+    <!--SeaGreen2	78 238 148	#4EEE94-->
+    <color name="_4eee94">#4EEE94</color>
+    <!--LightSlateGray	119 136 153	#778899-->
+    <color name="_778899">#778899</color>
+    <!--SeaGreen3	67 205 128	#43CD80-->
+    <color name="_43cd80">#43CD80</color>
+    <!--Grey	190 190 190	#BEBEBE-->
+    <color name="bebebe">#BEBEBE</color>
+    <!--SeaGreen4	46 139 87	#2E8B57-->
+    <color name="_2e8b57">#2E8B57</color>
+    <!--LightGray	211 211 211	#D3D3D3-->
+    <color name="_d3d3d3">#D3D3D3</color>
+    <!--PaleGreen1	154 255 154	#9AFF9A-->
+    <color name="_9aff9a">#9AFF9A</color>
+    <!--MidnightBlue	25 25 112	#191970-->
+    <color name="_191970">#191970</color>
+    <!--PaleGreen2	144 238 144	#90EE90-->
+    <color name="_90ee90">#90EE90</color>
+    <!--NavyBlue	0 0 128	#000080-->
+    <color name="_000080">#000080</color>
+    <!--PaleGreen3	124 205 124	#7CCD7C-->
+    <color name="_7ccd7c">#7CCD7C</color>
+    <!--CornflowerBlue	100 149 237	#6495ED-->
+    <color name="_6495ed">#6495ED</color>
+    <!--PaleGreen4	84 139 84	#548B54-->
+    <color name="_548b54">#548B54</color>
+    <!--DarkSlateBlue	72 61 139	#483D8B-->
+    <color name="_483d8b">#483D8B</color>
+    <!--SpringGreen1	0 255 127	#00FF7F-->
+    <color name="_00ff7f">#00FF7F</color>
+    <!--SlateBlue	106 90 205	#6A5ACD-->
+    <color name="_6a5acd">#6A5ACD</color>
+    <!--SpringGreen2	0 238 118	#00EE76-->
+    <color name="_00ee76">#00EE76</color>
+    <!--MediumSlateBlue	123 104 238	#7B68EE-->
+    <color name="_7b68ee">#7B68EE</color>
+    <!--SpringGreen3	0 205 102	#00CD66-->
+    <color name="_00cd66">#00CD66</color>
+    <!--LightSlateBlue	132 112 255	#8470FF-->
+    <color name="_8470ff">#8470FF</color>
+    <!--SpringGreen4	0 139 69	#008B45-->
+    <color name="_008b45">#008B45</color>
+    <!--MediumBlue	0 0 205	#0000CD-->
+    <color name="_0000cd">#0000CD</color>
+    <!--Green1	0 255 0	#00FF00-->
+    <color name="_00ff00">#00FF00</color>
+    <!--RoyalBlue	65 105 225	#4169E1-->
+    <color name="_4169e1">#4169E1</color>
+    <!--Green2	0 238 0	#00EE00-->
+    <color name="_00ee00">#00EE00</color>
+    <!--Blue	0 0 255	#0000FF-->
+    <color name="_0000ff">#0000FF</color>
+    <!--Green3	0 205 0	#00CD00-->
+    <color name="_00cd00">#00CD00</color>
+    <!--DodgerBlue	30 144 255	#1E90FF-->
+    <color name="_1e90ff">#1E90FF</color>
+    <!--Green4	0 139 0	#008B00-->
+    <color name="_008b00">#008B00</color>
+    <!--DeepSkyBlue	0 191 255	#00BFFF-->
+    <color name="_00bfff">#00BFFF</color>
+    <!--Chartreuse1	127 255 0	#7FFF00-->
+    <color name="_7fff00">#7FFF00</color>
+    <!--SkyBlue	135 206 235	#87CEEB-->
+    <color name="_87ceeb">#87CEEB</color>
+    <!--Chartreuse2	118 238 0	#76EE00-->
+    <color name="_76ee00">#76EE00</color>
+    <!--LightSkyBlue	135 206 250	#87CEFA-->
+    <color name="_87cefa">#87CEFA</color>
+    <!--Chartreuse3	102 205 0	#66CD00-->
+    <color name="_66cd00">#66CD00</color>
+    <!--SteelBlue	70 130 180	#4682B4-->
+    <color name="_4682b4">#4682B4</color>
+    <!--Chartreuse4	69 139 0	#458B00-->
+    <color name="_458b00">#458B00</color>
+    <!--LightSteelBlue	176 196 222	#B0C4DE-->
+    <color name="b0c4de">#B0C4DE</color>
+    <!--OliveDrab1	192 255 62	#C0FF3E-->
+    <color name="c0ff3e">#C0FF3E</color>
+    <!--LightBlue	173 216 230	#ADD8E6-->
+    <color name="add8e6">#ADD8E6</color>
+    <!--OliveDrab2	179 238 58	#B3EE3A-->
+    <color name="b3ee3a">#B3EE3A</color>
+    <!--PowderBlue	176 224 230	#B0E0E6-->
+    <color name="b0e0e6">#B0E0E6</color>
+    <!--OliveDrab3	154 205 50	#9ACD32-->
+    <color name="_9acd32">#9ACD32</color>
+    <!--PaleTurquoise	175 238 238	#AFEEEE-->
+    <color name="afeeee">#AFEEEE</color>
+    <!--OliveDrab4	105 139 34	#698B22-->
+    <color name="_698b22">#698B22</color>
+    <!--DarkTurquoise	0 206 209	#00CED1-->
+    <color name="_00ced1">#00CED1</color>
+    <!--DarkOliveGreen1	202 255 112	#CAFF70-->
+    <color name="caff70">#CAFF70</color>
+    <!--MediumTurquoise	72 209 204	#48D1CC-->
+    <color name="_48d1cc">#48D1CC</color>
+    <!--DarkOliveGreen2	188 238 104	#BCEE68-->
+    <color name="bcee68">#BCEE68</color>
+    <!--Turquoise	64 224 208	#40E0D0-->
+    <color name="_40e0d0">#40E0D0</color>
+    <!--DarkOliveGreen3	162 205 90	#A2CD5A-->
+    <color name="_a2cd5a">#A2CD5A</color>
+    <!--DarkOliveGreen4	110 139 61	#6E8B3D-->
+    <color name="_6e8b3d">#6E8B3D</color>
+    <!--LightCyan	224 255 255	#E0FFFF-->
+    <color name="e0ffff">#E0FFFF</color>
+    <!--Khaki1	255 246 143	#FFF68F-->
+    <color name="fff68f">#FFF68F</color>
+    <!--CadetBlue	95 158 160	#5F9EA0-->
+    <color name="_5f9ea0">#5F9EA0</color>
+    <!--Khaki2	238 230 133	#EEE685-->
+    <color name="eee685">#EEE685</color>
+    <!--Khaki3	205 198 115	#CDC673-->
+    <color name="cdc673">#CDC673</color>
+    <!--Khaki4	139 134 78	#8B864E-->
+    <color name="_8b864e">#8B864E</color>
+    <!--DarkGreen	0 100 0	#006400-->
+    <color name="_006400">#006400</color>
+    <!--LightGoldenrod1	255 236 139	#FFEC8B-->
+    <color name="ffec8b">#FFEC8B</color>
+    <!--DarkOliveGreen	85 107 47	#556B2F-->
+    <color name="_556b2f">#556B2F</color>
+    <!--LightGoldenrod2	238 220 130	#EEDC82-->
+    <color name="_eedc82">#EEDC82</color>
+    <!--DarkSeaGreen	143 188 143	#8FBC8F-->
+    <color name="_8fbc8f">#8FBC8F</color>
+    <!--LightGoldenrod3	205 190 112	#CDBE70-->
+    <color name="cdbe70">#CDBE70</color>
+    <!--LightGoldenrod4	139 129 76	#8B814C-->
+    <color name="_8b814c">#8B814C</color>
+    <!--MediumSeaGreen	60 179 113	#3CB371-->
+    <color name="_3cb371">#3CB371</color>
+    <!--LightYellow1	255 255 224	#FFFFE0-->
+    <color name="ffffe0">#FFFFE0</color>
+    <!--LightSeaGreen	32 178 170	#20B2AA-->
+    <color name="_20b2aa">#20B2AA</color>
+    <!--LightYellow2	238 238 209	#EEEED1-->
+    <color name="eeeed1">#EEEED1</color>
+    <!--PaleGreen	152 251 152	#98FB98-->
+    <color name="_98fb98">#98FB98</color>
+    <!--LightYellow3	205 205 180	#CDCDB4-->
+    <color name="_cdcdb4">#CDCDB4</color>
+    <!--LightYellow4	139 139 122	#8B8B7A-->
+    <color name="_8b8b7a">#8B8B7A</color>
+    <!--LawnGreen	124 252 0	#7CFC00-->
+    <color name="_7cfc00">#7CFC00</color>
+    <!--Yellow1	255 255 0	#FFFF00-->
+    <color name="ffff00">#FFFF00</color>
+
+    <!--Yellow2	238 238 0	#EEEE00-->
+    <color name="eeee00">#EEEE00</color>
+
+    <!--Yellow3	205 205 0	#CDCD00-->
+    <color name="cdcd00">#CDCD00</color>
+    <!--MedSpringGreen	0 250 154	#00FA9A-->
+    <color name="_00fa9a">#00FA9A</color>
+    <!--Yellow4	139 139 0	#8B8B00-->
+    <color name="_8b8b00">#8B8B00</color>
+    <!--GreenYellow	173 255 47	#ADFF2F-->
+    <color name="adff2f">#ADFF2F</color>
+    <!--Gold1	255 215 0	#FFD700-->
+    <color name="ffd700">#FFD700</color>
+    <!--LimeGreen	50 205 50	#32CD32-->
+    <color name="_32cd32">#32CD32</color>
+    <!--Gold2	238 201 0	#EEC900-->
+    <color name="eec900">#EEC900</color>
+    <!--Gold3	205 173 0	#CDAD00-->
+    <color name="cdad00">#CDAD00</color>
+    <!--ForestGreen	34 139 34	#228B22-->
+    <color name="ForestGreen">#FFFAFA</color>
+    <!--Gold4	139 117 0	#8B7500-->
+    <color name="Gold4">#FFFAFA</color>
+    <!--OliveDrab	107 142 35	#6B8E23-->
+    <color name="OliveDrab">#FFFAFA</color>
+    <!--Goldenrod1	255 193 37	#FFC125-->
+    <color name="_228b22">#228B22</color>
+    <!--DarkKhaki	189 183 107	#BDB76B-->
+    <color name="bdb76b">#BDB76B</color>
+    <!--Goldenrod2	238 180 34	#EEB422-->
+    <color name="eeb422">#EEB422</color>
+    <!--PaleGoldenrod	238 232 170	#EEE8AA-->
+    <color name="eee8aa">#EEE8AA</color>
+    <!--Goldenrod3	205 155 29	#CD9B1D-->
+    <color name="cd9b1d">#CD9B1D</color>
+    <!--LtGoldenrodYello	250 250 210	#FAFAD2-->
+    <color name="fafad2">#FAFAD2</color>
+    <!--Goldenrod4	139 105 20	#8B6914-->
+    <color name="_8b6914">#8B6914</color>
+    <!--DarkGoldenrod1	255 185 15	#FFB90F-->
+    <color name="ffb90f">#FFB90F</color>
+
+    <!--DarkGoldenrod2	238 173 14	#EEAD0E-->
+    <color name="eead0e">#EEAD0E</color>
+
+    <!--DarkGoldenrod3	205 149 12	#CD950C-->
+    <color name="cd950c">#CD950C</color>
+    <!--LightGoldenrod	238 221 130	#EEDD82-->
+    <color name="eedd82">#EEDD82</color>
+    <!--DarkGoldenrod4	139 101 8	#8B658B-->
+    <color name="_8b658b">#8B658B</color>
+    <!--goldenrod	218 165 32	#DAA520-->
+    <color name="daa520">#DAA520</color>
+    <!--RosyBrown1	255 193 193	#FFC1C1-->
+    <color name="ffc1c1">#FFC1C1</color>
+    <!--DarkGoldenrod	184 134 11	#B8860B-->
+    <color name="b8860b">#B8860B</color>
+    <!--RosyBrown2	238 180 180	#EEB4B4-->
+    <color name="eeb4b4">#EEB4B4</color>
+    <!--RosyBrown	188 143 143	#BC8F8F-->
+    <color name="bc8f8f">#BC8F8F</color>
+    <!--RosyBrown3	205 155 155	#CD9B9B-->
+    <color name="cd9b9b">#CD9B9B</color>
+    <!--IndianRed	205 92 92	#CD5C5C-->
+    <color name="cd5c5c">#CD5C5C</color>
+    <!--RosyBrown4	139 105 105	#8B6969-->
+    <color name="_8b6969">#8B6969</color>
+    <!--SaddleBrown	139 69 19	#8B4513-->
+    <color name="_8b4513">#8B4513</color>
+    <!--IndianRed1	255 106 106	#FF6A6A-->
+    <color name="ff6a6a">#FF6A6A</color>
+    <!--Sienna	160 82 45	#A0522D-->
+    <color name="a0522d">#A0522D</color>
+    <!--IndianRed2	238 99 99	#EE6363-->
+    <color name="ee6363">#EE6363</color>
+    <!--Peru	205 133 63	#CD853F-->
+    <color name="cd853f">#CD853F</color>
+    <!--IndianRed3	205 85 85	#CD5555-->
+    <color name="cd5555">#CD5555</color>
+    <!--Burlywood	222 184 135	#DEB887-->
+    <color name="deb887">#DEB887</color>
+    <!--IndianRed4	139 58 58	#8B3A3A-->
+    <color name="_8b3a3a">#8B3A3A</color>
+    <!--Beige	245 245 220	#F5F5DC-->
+    <color name="f5f5dc">#F5F5DC</color>
+    <!--Sienna1	255 130 71	#FF8247-->
+    <color name="ff8247">#FF8247</color>
+    <!--Wheat	245 222 179	#F5DEB3-->
+    <color name="f5deb3">#F5DEB3</color>
+    <!--Sienna2	238 121 66	#EE7942-->
+    <color name="ee7942">#EE7942</color>
+    <!--SandyBrown	244 164 96	#F4A460-->
+    <color name="f4a460">#F4A460</color>
+    <!--Sienna3	205 104 57	#CD6839-->
+    <color name="cd6839">#CD6839</color>
+    <!--Tan	210 180 140	#D2B48C-->
+    <color name="d2b48c">#D2B48C</color>
+    <!--Sienna4	139 71 38	#8B4726-->
+    <color name="_8b4726">#8B4726</color>
+    <!--Chocolate	210 105 30	#D2691E-->
+    <color name="d2691e">#D2691E</color>
+    <!--Burlywood1	255 211 155	#FFD39B-->
+    <color name="ffd39b">#FFD39B</color>
+    <!--Firebrick	178 34 34	#B22222-->
+    <color name="b22222">#B22222</color>
+    <!--Burlywood2	238 197 145	#EEC591-->
+    <color name="eec591">#EEC591</color>
+    <!--Brown	165 42 42	#A52A2A-->
+    <color name="a52a2a">#A52A2A</color>
+    <!--Burlywood3	205 170 125	#CDAA7D-->
+    <color name="cdaa7d">#CDAA7D</color>
+    <!--DarkSalmon	233 150 122	#E9967A-->
+    <color name="e9967a">#E9967A</color>
+    <!--Burlywood4	139 115 85	#8B7355-->
+    <color name="_8b7355">#8B7355</color>
+    <!--Salmon	250 128 114	#FA8072-->
+    <color name="fa8072">#FA8072</color>
+    <!--Wheat1	255 231 186	#FFE7BA-->
+    <color name="ffe7ba">#FFE7BA</color>
+    <!--LightSalmon	255 160 122	#FFA07A-->
+    <color name="ffa07a">#FFA07A</color>
+    <!--Wheat2	238 216 174	#EED8AE-->
+    <color name="eed8ae">#EED8AE</color>
+    <!--Orange	255 165 0	#FFA500-->
+    <color name="ffa500">#FFA500</color>
+    <!--Wheat3	205 186 150	#CDBA96-->
+    <color name="cdba96">#CDBA96</color>
+    <!--DarkOrange	255 140 0	#FF8C00-->
+    <color name="ff8c00">#FF8C00</color>
+    <!--Wheat4	139 126 102	#8B7E66-->
+    <color name="_8b7e66">#8B7E66</color>
+    <!--Coral	255 127 80	#FF7F50-->
+    <color name="ff7f50">#FF7F50</color>
+    <!--Tan1	255 165 79	#FFA54F-->
+    <color name="ffa54f">#FFA54F</color>
+    <!--LightCoral	240 128 128	#F08080-->
+    <color name="f08080">#F08080</color>
+    <!--Tan2	238 154 73	#EE9A49-->
+    <color name="ee9a49">#EE9A49</color>
+    <!--Tomato	255 99 71	#FF6347-->
+    <color name="ff6347">#FF6347</color>
+
+    <!--OrangeRed	255 69 0	#FF4500-->
+    <color name="ff4500">#FF4500</color>
+    <!--Tan4	139 90 43	#8B5A2B-->
+    <color name="_8b5a2b">#8B5A2B</color>
+    <!--Red	255 0 0	#FF0000-->
+    <color name="ff0000">#FF0000</color>
+    <!--Chocolate1	255 127 36	#FF7F24-->
+    <color name="ff7f24">#FF7F24</color>
+    <!--HotPink	255 105 180	#FF69B4-->
+    <color name="ff69b4">#FF69B4</color>
+    <!--Chocolate2	238 118 33	#EE7621-->
+    <color name="ee7621">#EE7621</color>
+    <!--DeepPink	255 20 147	#FF1493-->
+    <color name="ff1493">#FF1493</color>
+    <!--Chocolate3	205 102 29	#CD661D-->
+    <color name="cd661d">#CD661D</color>
+    <!--Pink	255 192 203	#FFC0CB-->
+    <color name="ffc0cb">#FFC0CB</color>
+
+    <!--LightPink	255 182 193	#FFB6C1-->
+    <color name="ffb6c1">#FFB6C1</color>
+    <!--Firebrick1	255 48 48	#FF3030-->
+    <color name="ff3030">#FF3030</color>
+    <!--PaleVioletRed	219 112 147	#DB7093-->
+    <color name="db7093">#DB7093</color>
+    <!--Firebrick2	238 44 44	#EE2C2C-->
+    <color name="ee2c2c">#EE2C2C</color>
+    <!--Maroon	176 48 96	#B03060-->
+    <color name="b03060">#B03060</color>
+    <!--Firebrick3	205 38 38	#CD2626-->
+    <color name="cd2626">#CD2626</color>
+    <!--MediumVioletRed	199 21 133	#C71585-->
+    <color name="c71585">#C71585</color>
+    <!--Firebrick4	139 26 26	#8B1A1A-->
+    <color name="_8b1a1a">#8B1A1A</color>
+    <!--VioletRed	208 32 144	#D02090-->
+    <color name="d02090">#D02090</color>
+    <!--Brown1	255 64 64	#FF4040-->
+    <color name="ff4040">#FF4040</color>
+    <!--Magenta	255 0 255	#FF00FF-->
+    <color name="ff00ff">#FF00FF</color>
+    <!--Brown2	238 59 59	#EE3B3B-->
+    <color name="ee3b3b">#EE3B3B</color>
+    <!--Violet	238 130 238	#EE82EE-->
+    <color name="ee82ee">#EE82EE</color>
+    <!--Brown3	205 51 51	#CD3333-->
+    <color name="cd3333">#CD3333</color>
+    <!--Plum	221 160 221	#DDA0DD-->
+    <color name="dda0dd">#DDA0DD</color>
+    <!--Brown4	139 35 35	#8B2323-->
+    <color name="_8b2323">#8B2323</color>
+    <!--Orchid	218 112 214	#DA70D6-->
+    <color name="da70d6">#DA70D6</color>
+    <!--Salmon1	255 140 105	#FF8C69-->
+    <color name="ff8c69">#FF8C69</color>
+    <!--MediumOrchid	186 85 211	#BA55D3-->
+    <color name="ba55d3">#BA55D3</color>
+    <!--Salmon2	238 130 98	#EE8262-->
+    <color name="ee8262">#EE8262</color>
+    <!--DarkOrchid	153 50 204	#9932CC-->
+    <color name="_9932cc">#9932CC</color>
+    <!--Salmon3	205 112 84	#CD7054-->
+    <color name="cd7054">#CD7054</color>
+    <!--DarkViolet	148 0 211	#9400D3-->
+    <color name="_9400d3">#9400D3</color>
+    <!--Salmon4	139 76 57	#8B4C39-->
+    <color name="_8b4c39">#8B4C39</color>
+    <!--BlueViolet	138 43 226	#8A2BE2-->
+    <color name="_8a2be2">#8A2BE2</color>
+
+    <!--Purple	160 32 240	#A020F0-->
+    <color name="a020f0">#A020F0</color>
+    <!--LightSalmon2	238 149 114	#EE9572-->
+    <color name="ee9572">#EE9572</color>
+    <!--MediumPurple	147 112 219	#9370DB-->
+    <color name="_9370db">#9370DB</color>
+    <!--LightSalmon3	205 129 98	#CD8162-->
+    <color name="cd8162">#CD8162</color>
+    <!--Thistle	216 191 216	#D8BFD8-->
+    <color name="d8bfd8">#D8BFD8</color>
+    <!--LightSalmon4	139 87 66	#8B5742-->
+    <color name="_8b5742">#8B5742</color>
+    <!--Snow2	238 233 233	#EEE9E9-->
+    <color name="eee9e9">#EEE9E9</color>
+    <!--Orange2	238 154 0	#EE9A00-->
+    <color name="ee9a00">#EE9A00</color>
+    <!--Snow3	205 201 201	#CDC9C9-->
+    <color name="cdc9c9">#CDC9C9</color>
+    <!--Orange3	205 133 0	#CD8500-->
+    <color name="cd8500">#CD8500</color>
+    <!--Snow4	139 137 137	#8B8989-->
+    <color name="_8b8989">#8B8989</color>
+    <!--Orange4	139 90 0	#8B5A00-->
+    <color name="_8b5a00">#8B5A00</color>
+
+    <!--DarkOrange1	255 127 0	#FF7F00-->
+    <color name="ff7f00">#FF7F00</color>
+    <!--Seashell2	238 229 222	#EEE5DE-->
+    <color name="eee5de">#EEE5DE</color>
+    <!--DarkOrange2	238 118 0	#EE7600-->
+    <color name="ee7600">#EE7600</color>
+    <!--Seashell3	205 197 191	#CDC5BF-->
+    <color name="cdc5bf">#CDC5BF</color>
+    <!--DarkOrange3	205 102 0	#CD6600-->
+    <color name="cd6600">#CD6600</color>
+    <!--Seashell4	139 134 130	#8B8682-->
+    <color name="_8b8682">#8B8682</color>
+    <!--DarkOrange4	139 69 0	#8B4500-->
+    <color name="_8b4500">#8B4500</color>
+    <!--AntiqueWhite1	255 239 219	#FFEFDB-->
+    <color name="ffefdb">#FFEFDB</color>
+    <!--Coral1	255 114 86	#FF7256-->
+    <color name="ff7256">#FF7256</color>
+    <!--AntiqueWhite2	238 223 204	#EEDFCC-->
+    <color name="eedfcc">#EEDFCC</color>
+    <!--Coral2	238 106 80	#EE6A50-->
+    <color name="ee6a50">#EE6A50</color>
+    <!--AntiqueWhite3	205 192 176	#CDC0B0-->
+    <color name="cdc0b0">#CDC0B0</color>
+    <!--Coral3	205 91 69	#CD5B45-->
+    <color name="cd5b45">#CD5B45</color>
+    <!--AntiqueWhite4	139 131 120	#8B8378-->
+    <color name="_8b8378">#8B8378</color>
+    <!--Coral4	139 62 47	#8B3E2F-->
+    <color name="_8b3e2f">#8B3E2F</color>
+
+    <!--Bisque2	238 213 183	#EED5B7-->
+    <color name="eed5b7">#EED5B7</color>
+    <!--Tomato2	238 92 66	#EE5C42-->
+    <color name="ee5c42">#EE5C42</color>
+    <!--Bisque3	205 183 158	#CDB79E-->
+    <color name="cdb79e">#CDB79E</color>
+    <!--Tomato3	205 79 57	#CD4F39-->
+    <color name="cd4f39">#CD4F39</color>
+    <!--Bisque4	139 125 107	#8B7D6B-->
+    <color name="_8b7d6b">#8B7D6B</color>
+    <!--Tomato4	139 54 38	#8B3626-->
+    <color name="_8b3626">#8B3626</color>
+
+
+    <!--PeachPuff2	238 203 173	#EECBAD-->
+    <color name="eecbad">#EECBAD</color>
+    <!--OrangeRed2	238 64 0	#EE4000-->
+    <color name="ee4000">#EE4000</color>
+    <!--PeachPuff3	205 175 149	#CDAF95-->
+    <color name="cdaf95">#CDAF95</color>
+    <!--OrangeRed3	205 55 0	#CD3700-->
+    <color name="cd3700">#CD3700</color>
+    <!--PeachPuff4	139 119 101	#8B7765-->
+    <color name="_8b7765">#8B7765</color>
+    <!--OrangeRed4	139 37 0	#8B2500-->
+    <color name="_8b2500">#8B2500</color>
+    <!--NavajoWhite2	238 207 161	#EECFA1-->
+    <color name="eecfa1">#EECFA1</color>
+    <!--Red2	238 0 0	#EE0000-->
+    <color name="ee0000">#EE0000</color>
+    <!--NavajoWhite3	205 179 139	#CDB38B-->
+    <color name="cdb38b">#CDB38B</color>
+    <!--Red3	205 0 0	#CD0000-->
+    <color name="cd0000">#CD0000</color>
+    <!--NavajoWhite4	139 121 94	#8B795E-->
+    <color name="_8b795e">#8B795E</color>
+    <!--Red4	139 0 0	#8B0000-->
+    <color name="_8b0000">#8B0000</color>
+
+    <!--LemonChiffon2	238 233 191	#EEE9BF-->
+    <color name="eee9bf">#EEE9BF</color>
+    <!--DeepPink2	238 18 137	#EE1289-->
+    <color name="ee1289">#EE1289</color>
+    <!--LemonChiffon3	205 201 165	#CDC9A5-->
+    <color name="cdc9a5">#CDC9A5</color>
+    <!--DeepPink3	205 16 118	#CD1076-->
+    <color name="cd1076">#CD1076</color>
+    <!--LemonChiffon4	139 137 112	#8B8970-->
+    <color name="_8b8970">#8B8970</color>
+    <!--DeepPink4	139 10 80	#8B0A50-->
+    <color name="_8b0a50">#8B0A50</color>
+
+    <!--HotPink1	255 110 180	#FF6EB4-->
+    <color name="ff6eb4">#FF6EB4</color>
+    <!--Cornsilk2	238 232 205	#EEE8CD-->
+    <color name="eee8cd">#EEE8CD</color>
+    <!--HotPink2	238 106 167	#EE6AA7-->
+    <color name="ee6aa7">#EE6AA7</color>
+    <!--Cornsilk3	205 200 177	#CDC8B1-->
+    <color name="cdc8b1">#CDC8B1</color>
+    <!--HotPink3	205 96 144	#CD6090-->
+    <color name="cd6090">#CD6090</color>
+    <!--Cornsilk4	139 136 120	#8B8878-->
+    <color name="_8b8878">#8B8878</color>
+    <!--HotPink4	139 58 98	#8B3A62-->
+    <color name="_8b3a62">#8B3A62</color>
+
+    <!--Pink1	255 181 197	#FFB5C5-->
+    <color name="ffb5c5">#FFB5C5</color>
+    <!--Ivory2	238 238 224	#EEEEE0-->
+    <color name="eeeee0">#EEEEE0</color>
+    <!--Pink2	238 169 184	#EEA9B8-->
+    <color name="eea9b8">#EEA9B8</color>
+    <!--Ivory3	205 205 193	#CDCDC1-->
+    <color name="cdcdc1">#CDCDC1</color>
+    <!--Pink3	205 145 158	#CD919E-->
+    <color name="cd919e">#CD919E</color>
+    <!--Ivory4	139 139 131	#8B8B83-->
+    <color name="_8b8b83">#8B8B83</color>
+    <!--Pink4	139 99 108	#8B636C-->
+    <color name="_8b636c">#8B636C</color>
+
+    <!--LightPink1	255 174 185	#FFAEB9-->
+    <color name="ffaeb9">#FFAEB9</color>
+    <!--Honeydew2	224 238 224	#E0EEE0-->
+    <color name="e0eee0">#E0EEE0</color>
+    <!--LightPink2	238 162 173	#EEA2AD-->
+    <color name="eea2ad">#EEA2AD</color>
+    <!--Honeydew3	193 205 193	#C1CDC1-->
+    <color name="c1cdc1">#C1CDC1</color>
+    <!--LightPink3	205 140 149	#CD8C95-->
+    <color name="cd8c95">#CD8C95</color>
+    <!--Honeydew4	131 139 131	#838B83-->
+    <color name="_838b83">#838B83</color>
+    <!--LightPink4	139 95 101	#8B5F65-->
+    <color name="_8b5f65">#8B5F65</color>
+
+    <!--PaleVioletRed1	255 130 171	#FF82AB-->
+    <color name="ff82ab">#FF82AB</color>
+    <!--LavenderBlush2	238 224 229	#EEE0E5-->
+    <color name="eee0e5">#EEE0E5</color>
+    <!--PaleVioletRed2	238 121 159	#EE799F-->
+    <color name="ee799f">#EE799F</color>
+    <!--LavenderBlush3	205 193 197	#CDC1C5-->
+    <color name="cdc1c5">#CDC1C5</color>
+    <!--PaleVioletRed3	205 104 137	#CD6889-->
+    <color name="cd6889">#CD6889</color>
+    <!--LavenderBlush4	139 131 134	#8B8386-->
+    <color name="_8b8386">#8B8386</color>
+    <!--PaleVioletRed4	139 71 93	#8B475D-->
+    <color name="_8b475d">#8B475D</color>
+    <!--Maroon1	255 52 179	#FF34B3-->
+    <color name="ff34b3">#FF34B3</color>
+    <!--MistyRose2	238 213 210	#EED5D2-->
+    <color name="eed5d2">#EED5D2</color>
+    <!--Maroon2	238 48 167	#EE30A7-->
+    <color name="ee30a7">#EE30A7</color>
+    <!--MistyRose3	205 183 181	#CDB7B5-->
+    <color name="cdb7b5">#CDB7B5</color>
+    <!--Maroon3	205 41 144	#CD2990-->
+    <color name="cd2990">#CD2990</color>
+    <!--MistyRose4	139 125 123	#8B7D7B-->
+    <color name="_8b7d7b">#8B7D7B</color>
+    <!--Maroon4	139 28 98	#8B1C62-->
+    <color name="_8b1c62">#8B1C62</color>
+
+    <!--VioletRed1	255 62 150	#FF3E96-->
+    <color name="ff3e96">#FF3E96</color>
+    <!--Azure2	224 238 238	#E0EEEE-->
+    <color name="e0eeee">#E0EEEE</color>
+    <!--VioletRed2	238 58 140	#EE3A8C-->
+    <color name="ee3a8c">#EE3A8C</color>
+    <!--Azure3	193 205 205	#C1CDCD-->
+    <color name="c1cdcd">#C1CDCD</color>
+    <!--VioletRed3	205 50 120	#CD3278-->
+    <color name="cd3278">#CD3278</color>
+    <!--Azure4	131 139 139	#838B8B-->
+    <color name="_838b8b">#838B8B</color>
+    <!--VioletRed4	139 34 82	#8B2252-->
+    <color name="_8b2252">#8B2252</color>
+    <!--SlateBlue1	131 111 255	#836FFF-->
+    <color name="_836fff">#836FFF</color>
+
+    <!--SlateBlue2	122 103 238	#7A67EE-->
+    <color name="_7a67ee">#7A67EE</color>
+    <!--Magenta2	238 0 238	#EE00EE-->
+    <color name="ee00ee">#EE00EE</color>
+    <!--SlateBlue3	105 89 205	#6959CD-->
+    <color name="_6959cd">#6959CD</color>
+    <!--Magenta3	205 0 205	#CD00CD-->
+    <color name="cd00cd">#CD00CD</color>
+    <!--SlateBlue4	71 60 139	#473C8B-->
+    <color name="_473c8b">#473C8B</color>
+
+    <!--RoyalBlue1	72 118 255	#4876FF-->
+    <color name="_4876ff">#4876FF</color>
+    <!--Orchid1	255 131 250	#FF83FA-->
+    <color name="ff83fa">#FF83FA</color>
+    <!--RoyalBlue2	67 110 238	#436EEE-->
+    <color name="_436eee">#436EEE</color>
+    <!--Orchid2	238 122 233	#EE7AE9-->
+    <color name="ee7ae9">#EE7AE9</color>
+    <!--RoyalBlue3	58 95 205	#3A5FCD-->
+    <color name="_3a5fcd">#3A5FCD</color>
+    <!--Orchid3	205 105 201	#CD69C9-->
+    <color name="cd69c9">#CD69C9</color>
+    <!--RoyalBlue4	39 64 139	#27408B-->
+    <color name="_27408b">#27408B</color>
+    <!--Orchid4	139 71 137	#8B4789-->
+    <color name="_8b4789">#8B4789</color>
+
+    <!--Plum1	255 187 255	#FFBBFF-->
+    <color name="ffbbff">#FFBBFF</color>
+    <!--Blue2	0 0 238	#0000EE-->
+    <color name="_0000ee">#0000EE</color>
+    <!--Plum2	238 174 238	#EEAEEE-->
+    <color name="eeaeee">#EEAEEE</color>
+
+    <!--Plum3	205 150 205	#CD96CD-->
+    <color name="cd96cd">#CD96CD</color>
+
+    <!--Plum4	139 102 139	#8B668B-->
+    <color name="_8b668b">#8B668B</color>
+
+    <!--MediumOrchid1	224 102 255	#E066FF-->
+    <color name="e066ff">#E066FF</color>
+    <!--DodgerBlue2	28 134 238	#1C86EE-->
+    <color name="_1c86ee">#1C86EE</color>
+    <!--MediumOrchid2	209 95 238	#D15FEE-->
+    <color name="_d15fee">#D15FEE</color>
+    <!--DodgerBlue3	24 116 205	#1874CD-->
+    <color name="_1874cd">#1874CD</color>
+    <!--MediumOrchid3	180 82 205	#B452CD-->
+    <color name="b452cd">#B452CD</color>
+    <!--DodgerBlue4	16 78 139	#104E8B-->
+    <color name="_104e8b">#104E8B</color>
+    <!--MediumOrchid4	122 55 139	#7A378B-->
+    <color name="_7a378b">#7A378B</color>
+    <!--SteelBlue1	99 184 255	#63B8FF-->
+    <color name="_63b8ff">#63B8FF</color>
+    <!--DarkOrchid1	191 62 255	#BF3EFF-->
+    <color name="bf3eff">#BF3EFF</color>
+    <!--SteelBlue2	92 172 238	#5CACEE-->
+    <color name="_5cacee">#5CACEE</color>
+    <!--DarkOrchid2	178 58 238	#B23AEE-->
+    <color name="b23aee">#B23AEE</color>
+    <!--SteelBlue3	79 148 205	#4F94CD-->
+    <color name="_4f94cd">#4F94CD</color>
+    <!--DarkOrchid3	154 50 205	#9A32CD-->
+    <color name="_9a32cd">#9A32CD</color>
+    <!--SteelBlue4	54 100 139	#36648B-->
+    <color name="_36648b">#36648B</color>
+    <!--DarkOrchid4	104 34 139	#68228B-->
+    <color name="_68228b">#68228B</color>
+
+    <!--Purple1	155 48 255	#9B30FF-->
+    <color name="_9b30ff">#9B30FF</color>
+    <!--DeepSkyBlue2	0 178 238	#00B2EE-->
+    <color name="_00b2ee">#00B2EE</color>
+    <!--Purple2	145 44 238	#912CEE-->
+    <color name="_912cee">#912CEE</color>
+    <!--DeepSkyBlue3	0 154 205	#009ACD-->
+    <color name="_009acd">#009ACD</color>
+    <!--Purple3	125 38 205	#7D26CD-->
+    <color name="_7d26cd">#7D26CD</color>
+
+    <!--DeepSkyBlue4	0 104 139	#00688B-->
+    <color name="_00688b">#00688B</color>
+    <!--Purple4	85 26 139	#551A8B-->
+    <color name="_551a8b">#551A8B</color>
+    <!--SkyBlue1	135 206 255	#87CEFF-->
+    <color name="_87ceff">#87CEFF</color>
+    <!--MediumPurple1	171 130 255	#AB82FF-->
+    <color name="ab82ff">#AB82FF</color>
+    <!--SkyBlue2	126 192 238	#7EC0EE-->
+    <color name="_7ec0ee">#7EC0EE</color>
+    <!--MediumPurple2	159 121 238	#9F79EE-->
+    <color name="_9f79ee">#9F79EE</color>
+    <!--SkyBlue3	108 166 205	#6CA6CD-->
+    <color name="_6ca6cd">#6CA6CD</color>
+    <!--MediumPurple3	137 104 205	#8968CD-->
+    <color name="_8968cd">#8968CD</color>
+    <!--SkyBlue4	74 112 139	#4A708B-->
+    <color name="_4a708b">#4A708B</color>
+    <!--MediumPurple4	93 71 139	#5D478B-->
+    <color name="_5d478b">#5D478B</color>
+    <!--LightSkyBlue1	176 226 255	#B0E2FF-->
+    <color name="b0e2ff">#B0E2FF</color>
+    <!--Thistle1	255 225 255	#FFE1FF-->
+    <color name="ffe1ff">#FFE1FF</color>
+    <!--LightSkyBlue2	164 211 238	#A4D3EE-->
+    <color name="a4d3ee">#A4D3EE</color>
+    <!--Thistle2	238 210 238	#EED2EE-->
+    <color name="eed2ee">#EED2EE</color>
+    <!--LightSkyBlue3	141 182 205	#8DB6CD-->
+    <color name="_8db6cd">#8DB6CD</color>
+    <!--Thistle3	205 181 205	#CDB5CD-->
+    <color name="cdb5cd">#CDB5CD</color>
+
+    <!--LightSkyBlue4	96 123 139	#607B8B-->
+    <color name="_607b8b">#607B8B</color>
+    <!--Thistle4	139 123 139	#8B7B8B-->
+    <color name="_8b7b8b">#8B7B8B</color>
+    <!--SlateGray1	198 226 255	#C6E2FF-->
+    <color name="c6e2ff">#C6E2FF</color>
+    <!--grey11	28 28 28	#1C1C1C-->
+    <color name="_1c1c1c">#1C1C1C</color>
+    <!--SlateGray2	185 211 238	#B9D3EE-->
+    <color name="b9d3ee">#B9D3EE</color>
+    <!--grey21	54 54 54	#363636-->
+    <color name="_363636">#363636</color>
+    <!--SlateGray3	159 182 205	#9FB6CD-->
+    <color name="_9fb6cd">#9FB6CD</color>
+    <!--grey31	79 79 79	#4F4F4F-->
+    <color name="_4f4f4f">#4F4F4F</color>
+    <!--SlateGray4	108 123 139	#6C7B8B-->
+    <color name="_6c7b8b">#6C7B8B</color>
+
+
+    <!--LightSteelBlue1	202 225 255	#CAE1FF-->
+    <color name="cae1ff">#CAE1FF</color>
+    <!--grey51	130 130 130	#828282-->
+    <color name="_828282">#828282</color>
+    <!--LightSteelBlue2	188 210 238	#BCD2EE-->
+    <color name="bcd2ee">#BCD2EE</color>
+    <!--grey61	156 156 156	#9C9C9C-->
+    <color name="_9c9c9c">#9C9C9C</color>
+    <!--LightSteelBlue3	162 181 205	#A2B5CD-->
+    <color name="a2b5cd">#A2B5CD</color>
+    <!--grey71	181 181 181	#B5B5B5-->
+    <color name="b5b5b5">#B5B5B5</color>
+    <!--LightSteelBlue4	110 123 139	#6E7B8B-->
+    <color name="_6e7b8b">#6E7B8B</color>
+    <!--gray81	207 207 207	#CFCFCF-->
+    <color name="cfcfcf">#CFCFCF</color>
+    <!--LightBlue1	191 239 255	#BFEFFF-->
+    <color name="bfefff">#BFEFFF</color>
+    <!--gray91	232 232 232	#E8E8E8-->
+    <color name="e8e8e8">#E8E8E8</color>
+    <!--LightBlue2	178 223 238	#B2DFEE-->
+    <color name="b2dfee">#B2DFEE</color>
+    <!--DarkGrey	169 169 169	#A9A9A9-->
+    <color name="a9a9a9">#A9A9A9</color>
+    <!--LightBlue3	154 192 205	#9AC0CD-->
+    <color name="_9ac0cd">#9AC0CD</color>
+    <!--DarkBlue	0 0 139	#00008B-->
+    <color name="_00008b">#00008B</color>
+    <!--LightBlue4	104 131 139	#68838B-->
+    <color name="_68838b">#68838B</color>
+
+
+    <!--DarkMagenta	139 0 139	#8B008B-->
+    <color name="_8b008b">#8B008B</color>
+    <!--LightCyan2	209 238 238	#D1EEEE-->
+    <color name="d1eeee">#D1EEEE</color>
+
+    <!--LightCyan3	180 205 205	#B4CDCD-->
+    <color name="b4cdcd">#B4CDCD</color>
+    <!--LightCyan4	122 139 139	#7A8B8B-->
+    <color name="_7a8b8b">#7A8B8B</color>
+
+</resources>

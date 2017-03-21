@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- 建议统一采用http_做为前缀-->
+<resources>
+    <string name="PROCAL">http://</string>
+    <string name="IP">192.168.1.132</string>
+    <integer name="PORT">8080</integer>
+    <string name="http_login">/app/login</string>
+</resources>

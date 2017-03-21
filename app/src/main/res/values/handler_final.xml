@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- 建议全大写-->
+<resources>
+    <!-- WebService库中所需的常量 -->
+    <integer name="SERVER_CONNECTION_START">0</integer>
+    <integer name="SERVER_CONNECTION_SUCCESS">1</integer>
+    <integer name="SERVER_CONNCTION_FAILURE">2</integer>
+    <integer name="SERVER_EXCEPTION">3</integer>
+    <integer name="SERVER_CONNECTION_SUCCESS_RETURNLIST">4</integer>
+
+    <integer name="HANDLER_MESSAGE">5</integer>
+</resources>

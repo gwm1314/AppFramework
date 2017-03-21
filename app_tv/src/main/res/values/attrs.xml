@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 百分比布局 -->
+    <declare-styleable name="PercentLayout_Layout">
+        <attr name="layout_widthPercent" format="string"/>
+        <attr name="layout_heightPercent" format="string"/>
+        <attr name="layout_marginPercent" format="string"/>
+        <attr name="layout_marginLeftPercent" format="string"/>
+        <attr name="layout_marginTopPercent" format="string"/>
+        <attr name="layout_marginRightPercent" format="string"/>
+        <attr name="layout_marginBottomPercent" format="string"/>
+        <attr name="layout_marginStartPercent" format="string"/>
+        <attr name="layout_marginEndPercent" format="string"/>
+        <attr name="layout_textSizePercent" format="string"/>
+        <attr name="layout_maxWidthPercent" format="string"/>
+        <attr name="layout_maxHeightPercent" format="string"/>
+        <attr name="layout_minWidthPercent" format="string"/>
+        <attr name="layout_minHeightPercent" format="string"/>
+    </declare-styleable>
+
+    <!-- 带有删除线的TextView -->
+    <declare-styleable name="RemoveTextView">
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="removeLineColor" format="color" />
+        <attr name="removeLineHeight" format="dimension" />
+    </declare-styleable>
+</resources>

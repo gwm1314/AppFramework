@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- 用于正在加载进度条的自定义控件对应的布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:background="@mipmap/loading_bg">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"/>
+    <TextView
+        android:id="@+id/tipTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp"
+        android:text="正在加载"/>
+</LinearLayout>
