@@ -8,3 +8,5 @@
 8.layout文件自动加载机制。事件用ids数组声明的方式。从此不需要findViewById()和setOnClickListener()等繁琐操作。
 9.对系统原生常用类做了很好的扩展与封装。比如Handler+Thread的操做，提供了可以迭代SpareArray的迭代器。
 10.集成XMLL推送、mqtt推送、websocket推送。
+11.集成了webservice.
+12.集成了Afinal的图片处理框架。
