@@ -10,3 +10,5 @@
 10.集成XMLL推送、mqtt推送、websocket推送。
 11.集成了webservice.
 12.集成了Afinal的图片处理框架。
+13.JSON数据解析
+14.支持二维码的生成与读取
